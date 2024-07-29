@@ -156,7 +156,7 @@ const Sidebar = () => {
           <Box paddingLeft={isCollapsed ? undefined : '10'}>
             <Item
               title='Dashboard'
-              to='/'
+              to='/gpg-admin-page'
               icon={<HomeOutlined />}
               selected={selected}
               setSelected={setSelected}
@@ -170,21 +170,21 @@ const Sidebar = () => {
             </Typography>
             <Item
               title='Manage Team'
-              to='/team'
+              to='/gpg-admin-page/team'
               icon={<PeopleOutline />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title='Contacts Information'
-              to='/contacts'
+              to='/gpg-admin-page/contacts'
               icon={<ContactsOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title='Invoices Balances'
-              to='/invoices'
+              to='/gpg-admin-page/invoices'
               icon={<ReceiptOutlined />}
               selected={selected}
               setSelected={setSelected}
@@ -198,7 +198,7 @@ const Sidebar = () => {
             </Typography>
             <Item
               title='Profile Form'
-              to='/form'
+              to='/gpg-admin-page/form'
               icon={<PersonOutlined />}
               selected={selected}
               setSelected={setSelected}
@@ -223,7 +223,7 @@ const Sidebar = () => {
                 <Item
                   key={idx}
                   title={board.name}
-                  to={`/kanban/${board.name
+                  to={`/gpg-admin-page/kanban/${board.name
                     .split(' ')
                     .join('_')
                     .toLowerCase()}`}
@@ -236,14 +236,14 @@ const Sidebar = () => {
 
             <Item
               title='Calendar'
-              to='/calendar'
+              to='/gpg-admin-page/calendar'
               icon={<CalendarTodayOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title='FAQ Page'
-              to='/faq'
+              to='/gpg-admin-page/faq'
               icon={<HelpOutlined />}
               selected={selected}
               setSelected={setSelected}
@@ -266,28 +266,28 @@ const Sidebar = () => {
             >
               <Item
                 title='Bar chart'
-                to='/bar'
+                to='/gpg-admin-page/bar'
                 selected={selected}
                 setSelected={setSelected}
                 icon={<BarChartOutlined />}
               />
               <Item
                 title='Pie chart'
-                to='/pie'
+                to='/gpg-admin-page/pie'
                 selected={selected}
                 setSelected={setSelected}
                 icon={<PieChartOutlineOutlined />}
               />
               <Item
                 title='Line chart'
-                to='/line'
+                to='/gpg-admin-page/line'
                 selected={selected}
                 setSelected={setSelected}
                 icon={<TimelineOutlined />}
               />
               <Item
                 title='Geography chart'
-                to='/geography'
+                to='/gpg-admin-page/geography'
                 selected={selected}
                 setSelected={setSelected}
                 icon={<MapOutlined />}
