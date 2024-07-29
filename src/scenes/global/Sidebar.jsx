@@ -44,7 +44,6 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
     </MenuItem>
   );
 };
-import img from '../../../public/assets/user.png';
 
 const Sidebar = () => {
   const theme = useTheme();
@@ -129,7 +128,7 @@ const Sidebar = () => {
                   alt='profile-user'
                   width='100px'
                   height='100px'
-                  src={img}
+                  src={`${process.env.PUBLIC_URL}/assets/user.png`}
                   style={{
                     cursor: 'pointer',
                     borderRadius: '50%',
