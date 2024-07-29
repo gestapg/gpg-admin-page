@@ -32,31 +32,22 @@ function App() {
             <main className='content'>
               <Topbar />
               <Routes>
-                <Route path='/gpg-admin-page"' element={<Dashboard />} />
-                <Route path='/gpg-admin-page"/team' element={<Team />} />
+                <Route path='/gpg-admin-page' element={<Dashboard />} />
+                <Route path='/gpg-admin-page/team' element={<Team />} />
+                <Route path='/gpg-admin-page/contacts' element={<Contacts />} />
+                <Route path='/gpg-admin-page/invoices' element={<Invoices />} />
+                <Route path='/gpg-admin-page/form' element={<Form />} />
                 <Route
-                  path='/gpg-admin-page"/contacts'
-                  element={<Contacts />}
-                />
-                <Route
-                  path='/gpg-admin-page"/invoices'
-                  element={<Invoices />}
-                />
-                <Route path='/gpg-admin-page"/form' element={<Form />} />
-                <Route
-                  path='/gpg-admin-page"/kanban/:boardName'
+                  path='/gpg-admin-page/kanban/:boardName'
                   element={<Kanban />}
                 />
+                <Route path='/gpg-admin-page/calendar' element={<Calendar />} />
+                <Route path='/gpg-admin-page/faq' element={<FAQ />} />
+                <Route path='/gpg-admin-page/bar' element={<Bar />} />
+                <Route path='/gpg-admin-page/pie' element={<Pie />} />
+                <Route path='/gpg-admin-page/line' element={<Line />} />
                 <Route
-                  path='/gpg-admin-page"/calendar'
-                  element={<Calendar />}
-                />
-                <Route path='/gpg-admin-page"/faq' element={<FAQ />} />
-                <Route path='/gpg-admin-page"/bar' element={<Bar />} />
-                <Route path='/gpg-admin-page"/pie' element={<Pie />} />
-                <Route path='/gpg-admin-page"/line' element={<Line />} />
-                <Route
-                  path='/gpg-admin-page"/geography'
+                  path='/gpg-admin-page/geography'
                   element={<Geography />}
                 />
               </Routes>
