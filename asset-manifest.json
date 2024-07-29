@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gpg-admin-page/static/css/main.810daae7.css",
+    "main.js": "/gpg-admin-page/static/js/main.83ee8c48.js",
+    "index.html": "/gpg-admin-page/index.html",
+    "main.810daae7.css.map": "/gpg-admin-page/static/css/main.810daae7.css.map",
+    "main.83ee8c48.js.map": "/gpg-admin-page/static/js/main.83ee8c48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.810daae7.css",
+    "static/js/main.83ee8c48.js"
+  ]
+}
